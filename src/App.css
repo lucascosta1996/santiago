@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+h1 {
+  font-size: 2.2em;
+  margin: 0.67em 0;
+  font-family: 'Poiret One', cursive;
+}
+
+body {
+  margin: 0;
+  font-size: 67%;
+  background-color: #f4f6f9;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+}
+
+header, nav, ul , article {
+    display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    flex-direction: column;
+}
+
+header {
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 0;
+}
+
+nav {
+    flex-basis: 40%;
+    justify-content: space-between;
+    width: 60%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    flex-basis: 30%;
+    justify-content: space-around;
+    font-size: 1.6em;
+    font-family: 'Abel', sans-serif;
+}
+
+.left {
+    transform: rotate(180deg);
+}
+
+.slider {
+    margin: auto;
+}
+
+.slider img {
+    max-width: 90vh;
+    max-height: 90vh;
+}
+
+.photoInfo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows {
+    width: 100%;
+}
+
+.arrows img:hover {
+    cursor: pointer;
+}
+
+article {
+    min-width: 100%;
+    justify-content: center;
+    align-items: left;
+}
+
+#technique {
+    font-family: 'Abel', sans-serif;
+}
+
+#title {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}

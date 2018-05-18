@@ -1,0 +1,21 @@
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+
+const images = [
+  'images/slide_2.jpg',
+  'images/slide_3.jpg',
+  'images/slide_4.jpg',
+  'images/slide_5.jpg',
+  'images/slide_6.jpg',
+  'images/slide_7.jpg'
+];
+
+const Slideshow = () => {
+    return (
+        <Slide
+          images={images}
+          duration={5000}
+          transitionDuration={1000}
+        />
+    )
+}
